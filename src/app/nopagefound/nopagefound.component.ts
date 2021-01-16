@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: [ './nopagefound.component.css'
   ]
 })
-export class NopagefoundComponent implements OnInit {
+export class NopagefoundComponent {
 
   year=new Date().getFullYear();
 
